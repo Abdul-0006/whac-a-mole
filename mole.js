@@ -117,7 +117,7 @@ function setgame() {
         document.getElementById("board").appendChild(tile);
     }
     setInterval(setmole, 1000);
-    setInterval(setplant, 2000);
+    setInterval(setplant, 750);
 }
 
 function getRandomtile() {
